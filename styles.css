@@ -1,6 +1,58 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+  background: black;
+  font-family: monospace; 
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: fantasy; 
+}
+header.page-header {
+  background: bisque;  
+  padding: 1rem; 
+  margin-bottom: 1rem;
+}
+.page-header h1 {
+  margin-bottom: 0;
+}
+.page-header p {
+  margin-top: 0; 
+}
+.page-header small {
+  font-size: medium; 
+}
+aside.more-info {
+  padding: 1rem; 
+  float: right; 
+  border-left: 5px solid bisque;
+  border-bottom: 5px solid bisque;
+  border-radius: 15px;
+}
+aside.more-info img {
+  width: 150px;
+  height: auto; 
+  display: block;
+  padding: 1rem;
+}
+section#content {
+  background-image: url('images/sand.jpg');
+  background-size: contain; 
+  border-radius: 15px;
+  padding: 1rem;
+}
+.poem {
+  list-style-type: none; 
+}
+.poem li {
+  font-size: large; 
+  line-height: 1.5;
+}
+.poem li:first-letter {
+  font-size: 150%; 
+}
+footer.page-footer {
+  background: bisque;
+  padding: 1rem; 
+  margin-top: 1rem;
 }
